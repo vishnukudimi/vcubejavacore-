@@ -18,7 +18,7 @@ public class Garbage1 {
 			Garbage1 obj2 = new Garbage1();
 			Garbage1 obj3 = new Garbage1();
 			obj1 = null;
-			obj2 = null;
+			obj2 = obj3;
 		System.out.println(obj1);
 		System.out.println(obj2);
 		System.out.println(obj3);
